@@ -17,7 +17,3 @@ This application should help us decide what we could cook. To do this, we should
 
 ## Page that show how to make the selected food
 - Step by step to cook
-
-# Wireframes
-
-![Form](page_form.png)
