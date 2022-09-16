@@ -1,4 +1,4 @@
-# ideal-food
+# Ideal Food
 Application to help decide what to eat.
 
 # Introduction
