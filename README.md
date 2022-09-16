@@ -9,8 +9,6 @@ This application should help us decide what we could cook. To do this, we should
 ## Page to insert what we have to cook
 - Form to inform what kind of ingredient and how much
 
- file:///home/tiago/Downloads/page_form.png
-
 ## Page that show the best options
 - Must contain cards with each ilustration
 - Must inform each nutricions values, easiness and price
