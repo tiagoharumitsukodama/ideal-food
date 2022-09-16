@@ -24,9 +24,12 @@ This application should help us decide what we could cook. To do this, we should
 - Apollo Server
 - GraphQL
 - Elasticsearch
+- Knex
 - Docker
 ### Database
 - SQLite
 ### Frontend
 - React
 - Bootstrap
+### Infrasctructure
+- GitHub Actions
