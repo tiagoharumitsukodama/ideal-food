@@ -1,0 +1,32 @@
+
+enum RecipeStatus {
+    ACTIVE
+    INACTIVE
+}
+
+enum RecipeDifficult {
+    EASY
+    MEDIUM
+    HARD
+}
+
+type Ingredient {
+    description: String!
+    unit: String
+    quantity: Float
+}
+
+type Recipe {
+    id: String!
+    description: String!
+    status: RecipeStatus
+    price: Float
+    difficult: RecipeDifficult
+    ingredients: [Ingredient]!
+}
+
+type Query {
+    ola(valor: String): String!
+    ingredient: Ingredient
+    recipe: Recipe
+}
