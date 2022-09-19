@@ -47,7 +47,7 @@ This application should help us decide what we could cook. To do this, we should
 
 - GitHub Actions
 
-# Run Backend
+# How to run Backend
 
 ```
 cd BACKEND
