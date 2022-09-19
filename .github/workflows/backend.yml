@@ -20,6 +20,8 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/BACKEND/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-       
+
+      - name: Install dependencies
+        run: cd BACKEND && npm ci
       - name: Running tests
         run: cd BACKEND && npm run test
