@@ -9,6 +9,11 @@
     "test": "jest",
     "lint": "eslint .  --ext .js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run test"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tiagoharumitsukodama/ideal-food.git"
@@ -23,11 +28,6 @@
     "apollo-server": "^2.4.8",
     "graphql": "^14.2.1",
     "graphql-import": "^0.7.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && npm run test"
-    }
   },
   "devDependencies": {
     "@types/jest": "^29.0.3",
