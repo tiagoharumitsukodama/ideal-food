@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node ./index.js",
     "dev": "nodemon ./indiex.js",
-    "test": "jest",
+    "test": "npm run lint && jest",
     "lint": "eslint .  --ext .js",
-    "prepare": "cd .. && husky install BACKEND/.husky"
+    "prepare": "cd ../ && husky install ./BACKEND/.husky"
 
   },
   "husky": {

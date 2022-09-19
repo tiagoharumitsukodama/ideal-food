@@ -14,5 +14,3 @@ server.listen().then(({ url }) => {
   // eslint-disable-next-line no-console
   console.info(`🚀 Server ready at ${url}`);
 });
-
-const aa = 4;
