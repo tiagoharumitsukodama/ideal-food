@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node ./index.js",
     "dev": "nodemon ./indiex.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint .  --ext .js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,19 @@
     "graphql": "^14.2.1",
     "graphql-import": "^0.7.1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run test"
+    }
+  },
   "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.18",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^8.0.1",
+    "jest": "^29.0.3",
     "nodemon": "^2.0.20"
   }
 }

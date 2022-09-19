@@ -1,6 +1,6 @@
-function description(recipe){
-    return "My recipe"
+function description(recipe) {
+  return `My recipe ${recipe.description}`;
 }
 module.exports = {
-    description
-}
+  description,
+};
