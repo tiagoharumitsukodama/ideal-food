@@ -36,7 +36,9 @@ This application should help us decide what we could cook. To do this, we should
 
 ### Database
 
-- SQLite
+- SQLite3
+
+https://dbdiagram.io/d/63290f0f0911f91ba5ea927f
 
 ### Frontend
 
@@ -57,3 +59,10 @@ npm run test
 npm run lint
 npm run dev
 ```
+
+# References
+SQLite3 and Knex
+https://medium.com/@MajikMan/starting-a-node-project-from-scratch-with-sqlite3-knex-and-express-fb4b765aca
+
+Graphql
+Udemy
