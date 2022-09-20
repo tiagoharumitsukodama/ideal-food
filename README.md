@@ -61,8 +61,5 @@ npm run dev
 ```
 
 # References
-SQLite3 and Knex
-https://medium.com/@MajikMan/starting-a-node-project-from-scratch-with-sqlite3-knex-and-express-fb4b765aca
-
-Graphql
-Udemy
+- [SQLite3 and Knex](https://medium.com/@MajikMan/starting-a-node-project-from-scratch-with-sqlite3-knex-and-express-fb4b765aca)
+- [Graphql](https://www.udemy.com/)
