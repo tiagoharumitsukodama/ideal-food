@@ -60,6 +60,11 @@ npm run lint
 npm run dev
 ```
 
+# How to run elasticsearch
+```
+    sudo docker-compose up
+```
+
 # References
 - [SQLite3 and Knex](https://medium.com/@MajikMan/starting-a-node-project-from-scratch-with-sqlite3-knex-and-express-fb4b765aca)
 - [Graphql](https://www.udemy.com/)
