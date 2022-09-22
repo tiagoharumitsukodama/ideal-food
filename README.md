@@ -62,7 +62,7 @@ npm run dev
 
 # How to run elasticsearch
 ```
-    sudo docker-compose up
+sudo docker-compose up
 ```
 
 # References
