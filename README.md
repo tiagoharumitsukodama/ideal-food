@@ -26,7 +26,6 @@ This application should help us decide what we could cook. To do this, we should
 ## Technologies
 
 ### Backend
-
 - Node
 - Apollo Server
 - GraphQL
@@ -52,14 +51,8 @@ https://dbdiagram.io/d/63290f0f0911f91ba5ea927f
 - GitHub Actions
 
 # How to run Backend
-
 ```
-cd BACKEND
-
-npm run start
-npm run test
-npm run lint
-npm run dev
+cd BACKEND && npm run start
 ```
 
 # How to run elasticsearch
