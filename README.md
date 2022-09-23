@@ -38,6 +38,8 @@ This application should help us decide what we could cook. To do this, we should
 
 - SQLite3
 
+[How to start](BACKEND/data/README.md)
+
 https://dbdiagram.io/d/63290f0f0911f91ba5ea927f
 
 ### Frontend

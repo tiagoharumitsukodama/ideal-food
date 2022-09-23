@@ -63,3 +63,8 @@ exports.seed = async function (knex) {
   ]);
 };
 ```
+
+### Run seed
+```
+npx knex seed:run
+```
