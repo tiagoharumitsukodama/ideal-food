@@ -16,16 +16,16 @@ class BaseDatabase {
     return db(this.entity).where({ id });
   }
 
-  insert(post) {
+  insert(item) {
     return db(this.entity)
-      .insert(post)
+      .insert(item)
       .then((ids) => ({ id: ids[0] }));
   }
 
-  update(id, post) {
+  update(id, item) {
     return db(this.entity)
       .where('id', id)
-      .update(post);
+      .update(item);
   }
 
   remove(id) {
