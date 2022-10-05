@@ -42,7 +42,7 @@ npx knex migrate:rollback
 ### Create seed file
 run
 ```
-npx seed:make <number>-<table>
+npx knex seed:make <number>-<table>
 ```
 
 ### Implement function
