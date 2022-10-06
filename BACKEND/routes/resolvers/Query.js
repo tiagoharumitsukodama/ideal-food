@@ -1,36 +1,19 @@
-function ola(_, { valor }) {
-  return `Hello world ${valor}`;
-}
+const { UserRepository } = require('../../repository/UserRepository');
+const { UserUseCase } = require('../../useCase/UserUseCase');
 
-function ingredient() {
-  const data = {
-    description: 'Batata',
-    unit: 'Gram',
-    quantity: 5,
-  };
+async function user(_, { id }) {
+  const userUseCase = new UserUseCase(new UserRepository());
 
-  return data;
-}
+  const [userFromDb] = await userUseCase.getUser(id);
 
-function recipe() {
-  const ingredientToAdd = {
-    description: 'Batata',
-    unit: 'Gram',
-    quantity: 5,
-  };
+  console.log(userFromDb);
 
   return {
-    id: 'my-id',
-    description: 'Pure de batata',
-    status: 'ACTIVE',
-    price: 34,
-    difficult: 'EASY',
-    ingredients: [ingredientToAdd],
+    ...userFromDb,
+    fridge: [],
   };
 }
 
 module.exports = {
-  ola,
-  ingredient,
-  recipe,
+  user,
 };

@@ -11,22 +11,27 @@ enum RecipeDifficult {
 }
 
 type Ingredient {
-    description: String!
-    unit: String
+    description: String
     quantity: Float
+    unit: String
 }
 
 type Recipe {
-    id: String!
-    description: String!
+    id: String
+    description: String
     status: RecipeStatus
     price: Float
     difficult: RecipeDifficult
-    ingredients: [Ingredient]!
+    ingredients: [Ingredient]
 }
 
+type User {
+    id: String
+    name: String
+    fridge: [Ingredient]
+}
+
+
 type Query {
-    ola(valor: String): String!
-    ingredient: Ingredient
-    recipe: Recipe
+    user(id: String): User
 }
