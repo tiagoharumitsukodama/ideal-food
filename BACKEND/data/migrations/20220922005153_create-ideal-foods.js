@@ -46,6 +46,10 @@ exports.up = function (knex) {
 
       t.float('quantity');
 
+      t.text('ingredientId')
+        .references('Ingredient.id')
+        .onDelete('CASCADE');
+
       t.text('userId')
         .references('User.id')
         .onDelete('CASCADE');
