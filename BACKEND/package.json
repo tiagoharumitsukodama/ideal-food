@@ -30,7 +30,9 @@
     "graphql": "^14.2.1",
     "graphql-import": "^0.7.1",
     "knex": "^2.3.0",
-    "sqlite3": "^5.1.1"
+    "sqlite3": "^5.1.1",
+    "csvtojson": "^2.0.10",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/jest": "^29.0.3",
