@@ -1,0 +1,37 @@
+
+enum RecipeStatus {
+    ACTIVE
+    INACTIVE
+}
+
+enum RecipeDifficult {
+    EASY
+    MEDIUM
+    HARD
+}
+
+type Ingredient {
+    description: String
+    quantity: Float
+    unit: String
+}
+
+type Recipe {
+    id: String
+    description: String
+    status: RecipeStatus
+    price: Float
+    difficult: RecipeDifficult
+    ingredients: [Ingredient]
+}
+
+type User {
+    id: String
+    name: String
+    fridge: [Ingredient]
+}
+
+
+type Query {
+    user(id: String): User
+}

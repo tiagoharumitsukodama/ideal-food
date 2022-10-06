@@ -26,7 +26,6 @@ This application should help us decide what we could cook. To do this, we should
 ## Technologies
 
 ### Backend
-
 - Node
 - Apollo Server
 - GraphQL
@@ -34,9 +33,13 @@ This application should help us decide what we could cook. To do this, we should
 - Knex
 - Docker
 
+[Example to call GraphQL](BACKEND/routes/README.md)
+
 ### Database
 
 - SQLite3
+
+[How to start](BACKEND/data/README.md)
 
 https://dbdiagram.io/d/63290f0f0911f91ba5ea927f
 
@@ -45,24 +48,18 @@ https://dbdiagram.io/d/63290f0f0911f91ba5ea927f
 - React
 - Bootstrap
 
-### Infrasctructure
+### Infrastructure
 
 - GitHub Actions
 
 # How to run Backend
-
 ```
-cd BACKEND
-
-npm run start
-npm run test
-npm run lint
-npm run dev
+cd BACKEND && npm run start
 ```
 
 # How to run elasticsearch
 ```
-    sudo docker-compose up
+sudo docker-compose up
 ```
 
 # References

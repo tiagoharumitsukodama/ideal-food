@@ -1,0 +1,20 @@
+{
+    "Items": [
+        { "description": "g" },
+        { "description": "kg" },
+        { "description": "mg" },
+        { "description": "mL" },
+        { "description": "L" },
+        { "description": "dúzia" },
+        { "description": "mol" },
+        { "description": "cacho" },
+        { "description": "m" },
+        { "description": "mm" },
+        { "description": "cm" },
+        { "description": "xícara" },
+        { "description": "colher de chá" },
+        { "description": "colher de sopa" },
+        { "description": "jarra" },
+        { "description": "pitada" }
+    ]
+}
