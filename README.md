@@ -33,6 +33,8 @@ This application should help us decide what we could cook. To do this, we should
 - Knex
 - Docker
 
+[Example to call GraphQL](BACKEND/routes/README.md)
+
 ### Database
 
 - SQLite3
@@ -46,7 +48,7 @@ https://dbdiagram.io/d/63290f0f0911f91ba5ea927f
 - React
 - Bootstrap
 
-### Infrasctructure
+### Infrastructure
 
 - GitHub Actions
 

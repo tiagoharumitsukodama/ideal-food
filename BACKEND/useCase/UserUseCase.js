@@ -6,6 +6,10 @@ class UserUseCase {
   async getUser(id) {
     return this.repository.findById(id);
   }
+
+  async getIngredientsByUser(id) {
+    return this.repository.findIngredientsByUser(id);
+  }
 }
 
 module.exports = { UserUseCase };
