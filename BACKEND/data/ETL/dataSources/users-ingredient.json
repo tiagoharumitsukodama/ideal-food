@@ -1,0 +1,22 @@
+{
+    "Items": [
+        { 
+            "id": 1,
+            "name": "James",
+            "ingredientUser": [
+                {
+                    "id": 1,
+                    "quantity": 500,
+                    "userId": 1,
+                    "unitId": 0
+                },
+                {
+                    "id": 2,
+                    "quantity": 600,
+                    "userId": 1,
+                    "unitId": 5
+                }
+            ]
+        }
+    ]
+}

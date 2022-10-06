@@ -1,14 +1,28 @@
 /* eslint-disable func-names */
-const units = require('../ETL/dataSources/users.json').Items;
+const items = require('../ETL/dataSources/users-ingredient.json').Items;
 /**
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
 exports.seed = async function (knex) {
   // Deletes ALL existing entries
+  await knex('IngredientUser').del();
   await knex('User').del();
 
-  const userWithId = units.map((e, i) => ({ id: i, ...e }));
+  const users = [];
+  const ingredientUsers = [];
 
-  await knex('User').insert(userWithId);
+  items.forEach((e) => {
+    users.push({
+      name: e.name,
+      id: e.id,
+    });
+
+    e.ingredientUser.forEach((i) => {
+      ingredientUsers.push(i);
+    });
+  });
+
+  await knex('User').insert(users);
+  await knex('IngredientUser').insert(ingredientUsers);
 };

@@ -1,0 +1,26 @@
+{
+    "Items": [
+        { 
+            "id": 1,
+            "description": "Spaghetti puttanesca",
+            "status": "ACTIVE",
+            "price": 25,
+            "difficult": "EASY",
+            "ingredients": [
+                { "id": 1, "description": "cebola" },
+                { "id": 2, "description": "azeite" },
+                { "id": 3, "description": "pimenta" },
+                { "id": 4, "description": "tomate" },
+                { "id": 5, "description": "massa" }
+           ],
+           "ingredientRecipe": [
+                { "id": 1, "recipeId": 1, "ingredientId": 1, "quantity": 1, "unitId": 5},
+                { "id": 2, "recipeId": 1, "ingredientId": 2, "quantity": 3, "unitId": 3},
+                { "id": 3, "recipeId": 1, "ingredientId": 3, "quantity": 2, "unitId": 2},
+                { "id": 4, "recipeId": 1, "ingredientId": 4, "quantity": 2, "unitId": 5},
+                { "id": 5, "recipeId": 1, "ingredientId": 5, "quantity": 300, "unitId": 0}
+           ]
+
+        }
+    ]
+}
