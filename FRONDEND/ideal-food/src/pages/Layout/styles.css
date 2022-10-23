@@ -1,0 +1,40 @@
+
+.layoutStyle {
+    font-family: Sans-Serif;
+    width: 99vw;
+    margin: 0;
+    padding: 0;
+}
+
+.navStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+.itemStyle {
+    background-color: DodgerBlue;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+}
+
+.bodyContent {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: rgb(73, 73, 73);
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,10 @@
+.home {
+    text-align: center;
+}
+
+.randomText {
+    color: rgb(5, 27, 46);
+    width: 80%;
+    margin: auto;
+    line-height: 2rem;
+}
