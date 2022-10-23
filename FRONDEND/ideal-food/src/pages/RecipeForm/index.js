@@ -1,5 +1,7 @@
 const RecipeForm = () => {
-    return <h1>Recipe Form</h1>;
+    return <div>
+      <h1>Recipe Form</h1>;
+    </div>
   };
   
   export default RecipeForm;

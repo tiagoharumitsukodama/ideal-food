@@ -24,17 +24,18 @@
     text-decoration: none;
 }
 
-a {
+.itemStyle > a {
     text-decoration: none;
     color: seashell;
 }
 
 .bodyContent {
-    background-color: aliceblue;
+    margin: auto;
 }
 
 h1 {
-    color: rgb(73, 73, 73);
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 170, 170);
     text-align: center;
     padding: 1rem;
 }

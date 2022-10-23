@@ -1,5 +1,7 @@
 const RecipeRanking = () => {
-    return <h1>Recipe Ranking</h1>;
+    return <div>
+      <h1>Recipe Ranking</h1>;
+    </div>
   };
   
   export default RecipeRanking;
